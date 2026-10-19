@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+// initializing all the necesary variables 
 const flightSchema = mongoose.Schema({
     airline: String,
     flightNo: String,
